@@ -1,29 +1,36 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    "Hi there , My Name Is Usama Hamayun Ghouri.",
+    `Currently pursuing Masters In Automatic Control and Robotics, 
+    working as Hardware & UAV Engineer in WeCrunch. I graduated as a Bachelors  Engineer in Mechatronics,  
+    For this reason, I feel especially qualified and motivated to cover any position in my study area. 
+    Since during my working life I have worked in many fields of a technical nature, both in the office and in the field, 
+    which has allowed me to acquire a wealth of knowledge and experience, as well as to improve my capacity for teamwork and 
+    management of people and projects.
+
+    My experience is mainly focused on robotics and control of Mobile Robots , Robotics Arms and UAVs, as a consequence, 
+    I have a solid background in electronics, computer vision, AI, and autonomous navigation, among others, ranging from the design and programming of service robots, 
+    industrial machines. My training and experience have allowed me to acquire the ability to "learn to learn", so I have a great willingness to face challenges.`,
     "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "C++, C",
         color: "1",
-        percentage: "80",
+        percentage: "70",
     },
     {
         title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        skillName: "Python",
         color: "6",
         percentage: "70",
     },
     {
         title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        skillName: "ROS1/ROS2,URDF, Docker/Dev Containers",
         color: "4",
-        percentage: "70",
+        percentage: "80",
     },
     {
         title: "Version Control",
@@ -33,19 +40,19 @@ export const skills = [
     },
     {
         title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        skillName: "Controls, MPC , Robust Control,Contol Modelling and Designing",
         color: "3",
-        percentage: "80",
+        percentage: "70",
     },
     {
         title: "Analytics",
-        skillName: "CleverTap, Countly",
+        skillName: "TensorFlow, Pytorch, Deep Learning, Machine Learning",
         color: "5",
         percentage: "50",
     },
     {
         title: "IDE",
-        skillName: "VS Code",
+        skillName: "Computer Vision,Perception, Localization",
         color: "6",
         percentage: "70",
     },
@@ -152,87 +159,82 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
+        title: "WeCrunch Private Ltd",
         duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        subtitle: "Hardware & UAV Engineer",
         details: [
-            "Working in support and escalation team."
+            `Work as a Lead Hardware Engineer.
+            Responsible for Developing,Designing & Acquisition of Hardware for AGVs, and UAVs for warehouse management`,
+            `Developed Autonomous Navigation and loclization Algorithms of Drones for Indoor Warehouse Navigation`,
+            `Implemeted Vision + SLAM based Navigation for Indoor warehouse`,
+            `Developed a Simulator for Testing Developement of Navigation Algorithms.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        tags: ["AGVs", "Drones, UAVS", "C++", "python", "ROS1, ROS2","Kalman Filter , AMCL"],
         icon: "truck ",
     },
     {
-        title: "Biofourmis India Private Limited",
-        duration: "April 2022 - Jul 2023",
-        subtitle: "Software Engineer",
+        title: "Institute of Industrial And Control Engineering (IOC)- UPC",
+        duration: "Oct 2023 - Jan 2024",
+        subtitle: "Reseach Internee",
         details: [
-            `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+        `Shifting and all old repositories from ROS1 to ROS2.`,
+        `Implemented Behavior Trees on ROS2 for Robot task planning and Monitoring`,
         ],
-        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
+        tags: ["ROS2", "Task Planning", "BehaviorTrees", "C++", "Python", "Navigation Stack2"],
         icon: "heartbeat",
-    },
-    {
-        title: "Novopay Solutions Private Limited",
-        duration: "June 2020 - April 2022",
-        subtitle: "Software Engineer",
-        details: [
-            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-        ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "qrcode",
-    },
-    {
-        title: "ThinkPedia LLP",
-        duration: "May 2019 - June 2019",
-        subtitle: "SDE Intern",
-        details: [
-            `Developed a customer web application for social media management, supporting the advertisement domain.`,
-        ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-        icon: "group",
-    },
+        },
+        {
+            title: "Accomacs Technologies - USA",
+            duration: "Mar 2022 - Nov 2023",
+            subtitle: "Drone/UAV Engineer",
+            details: [
+            `Design Autonomous UAVs for Agriculture Purposes (Seeding , Spraying)`,
+            `Developed Ready to USE Production Ready UAVs with the Payload capacity of 10 gallons,30 gallons and 100kg.`,
+            `Desigend Hybrid Hydrogen + battery based UAV with custom Power management system`,
+            `Built custom ground control software for Flight management and Mission planning`,
+            ],
+            tags: ["Drones", "UAVs", "PX4", "QGroundControl", "C++","Python","SLAM"],
+            icon: "plane",
+            },
+            {
+                title: "Salman And Associates - Pakistan",
+                duration: "Jul 2019 - Aug 2022",
+                subtitle: "Technical Support Engineer",
+                details: [`Deployment of Robotic ARMs along with installation and commissioning.Reviewing and approving designs`,
+                         `Calculations, or cost estimation.`,
+                        `Installed, operated , calibration and maintenance resposibilities. Supervising of technologists, technicians or
+                        other engineers`,
+                        `Worked on Various 3 Axis CNC Machines`,
+                        `Selection & finalizing of tools and Machine technologies as per users demands.`,
+                        `Using IR and night vision, used techniques like CV, ROS and tensorflow`,],
+                tags : ["Gcode" , "MCode", "Computer Vision", "Commissioning", "ROS1", "UGVs"],
+                icon: "car"
+            }
+            
 ];
 
 export const education = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
+        title: "Masters in Automatic Control And Robotics",
+        duration: "2022 - 2024",
+        subtitle: "UPC - Universitat Politècnica de Catalunya-BarcelonaTech",
         details: [],
         tags: [
-            "Data Structures & Algorithms",
-            "Operating Systems",
-            "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
-            "Cloud Computing",
+            "Linear and Non-Linear System Controls",
+            "Robot Operating System (ROS1, ROS2)",
+            "Optimization",
+            "Computer Vision,Image Recongnition, Pattern Recognition",
+            "Drones,Mobile Robots, Robotics Arms",
+            "AI, DL , ML , Deep Reinforcement Learning",
         ],
         icon: "graduation-cap",
     },
     {
-        title: "Class 12th in Science and Mathematics",
-        duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
+        title: "Bachelors of Mechatronics Engineering",
+        duration: "2015-2019",
+        subtitle: "Air University Islamabad, Pakistan",
         details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
+        tags: ["Mechatronics", "Instrumentation", "Industrial Automation","Machine Design","Advanced Robotics"],
         icon: "book",
     },
 ];
@@ -242,16 +244,8 @@ export const footer = [
         label: "Dev Profiles",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
                 text: "GitHub",
-                link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
+                link: "https://github.com/UsamaHamayun1",
             },
         ],
     },
@@ -266,10 +260,6 @@ export const footer = [
                 text: "Print this page",
                 func: "window.print()",
             },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            },
         ],
     },
     {
@@ -277,22 +267,22 @@ export const footer = [
         data: [
             {
                 text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
+                link: "https://www.linkedin.com/in/usamahamayun/",
             },
             {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
+                text: "X (Twitter)",
+                link: "https://twitter.com/UsamaHamayun2",
             },
             {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
+                text: "Instagram",
+                link: "https://www.instagram.com/usamahamayun1",
             },
         ],
     },
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by Vinay Somawat.",
+            "Made with &hearts; by Usama Hamayun Ghouri.",
             "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
