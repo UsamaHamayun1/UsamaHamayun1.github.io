@@ -2,6 +2,7 @@ import {
     bio,
     skills,
     projects,
+    projects2,
     education,
     experience,
     footer,
@@ -9,8 +10,10 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
+  const { webProjects,  softwareProjects, androidProjects, freelanceProjects } =
     projects;
+    const { webProjects2, softwareProjects2 } =
+    projects2;
   const { medium, gitConnected } = URLs;
   
   /**
@@ -364,7 +367,7 @@ import { URLs } from './user-data/urls.js';
     divTimelineEntryInner.append(divTimelineIcon);
   
     let article = document.createElement("article");
-    article.className = "timeline-entry begin animate-box";
+    // article.className = "timeline-entry begin animate-box";
     article.append(divTimelineEntryInner);
   
     mainContainer.append(article);
@@ -450,9 +453,10 @@ import { URLs } from './user-data/urls.js';
   fetchGitConnectedData(gitConnected);
   
   populateProjects(webProjects, "web-projects");
+  populateProjects(webProjects2, "web-projects2");
   populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+  // populateProjects(androidProjects, "android-projects");
+  // populateProjects(freelanceProjects, "freelance-projects");
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");

@@ -57,102 +57,72 @@ export const skills = [
         percentage: "70",
     },
 ];
-
+export const projects2 = {
+    // publication can  be added from here
+    webProjects2: [
+        {
+            projectName: "Attitude Control of Quad-copter using Deterministic Policy Gradient Algorithms (DPGA)",
+            image: "https://ieeexplore.ieee.org/assets/img/ieee_logo_white.svg",
+            summary:
+                "Attitude Control of Quad-copter using Deterministic Policy Gradient Algorithms (DPGA)  ",
+            preview: "https://ieeexplore.ieee.org/document/8681003",
+            techStack: ["Pytorch", "OpenAi-GYM", "ROS", "Python", "Deep Reinforcement Learning"],
+        }
+    ],
+    
+};
 export const projects = {
     webProjects: [
         {
-            projectName: "Programming Diaries",
-            image: "images/programmingdiaries.png",
+            projectName: "PECORE (Perception , Cognition and Recognition",
+            image: "https://asantamarianavarro.gitlab.io/teaching/muar/pecore/_images/lio_sam_demo.gif",
             summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-            preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+                "This repository contains the code, assignments, and projects related to the Master's course on Perception and Cognition in Robotic Exploration (PECORE) offered at UPC-ETSEIB. The course explores the fundamental concepts, algorithms, and methodologies in robot perception, cognition, and exploration",
+            preview: "https://github.com/UsamaHamayun1/ROS2_Perception_congnition.git/",
+            techStack: ["ROS2", "SLAM", "Servoing", "Python", "Perception"],
         },
         {
-            projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
+            projectName: "Human Robot Chess Match",
+            image: "https://camo.githubusercontent.com/5d08cfbe164d73964493632f746f56f5c1bf500842f857e652c236b397b80dab/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f30474872305042304c75632f302e6a7067",
             summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+                "The solution proposed by the team to reproduce a chess match where the robot moves the pieces according to the user commands. ",
+            preview: "",
+            techStack: ["ROS1", "ComputerVision", "Robotics", "Motion & Task Planning"],
         },
         {
-            projectName: "Web Portfolio",
-            image: "images/portfolio.png",
+            projectName: "Tiago Robot as Classroom Assistant",
+            image: "https://camo.githubusercontent.com/028c76f75c0ed589c20377a0fbbcd3d774fda9f5b7dcd87ff8885ece53a334cf/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f576e4c68674851395745512f302e6a7067",
             summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-        {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
-            summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
+                "Using TIAGO-By PAL as classroom assistant, Planning a task and actions Open Motion Planning Library ",
+            preview: "https://github.com/UsamaHamayun1/Tiago_classroom_assisstant/blob/main/Tiago_classroom_TAMP_demo.mp4",
+            techStack: ["ROS2", "Kautham", "Python", "Motion & Task Planning","OMPL"],
         },
     ],
+    
     softwareProjects: [
         {
-            projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
+            projectName: "Facial Expression Detection and Recognition",
+            image: "images/example1.png",
             summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-            preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
+                "Develop an DL based model to identify Facial Expression",
+            preview: "https://github.com/UsamaHamayun1/Pattern-Recognition",
+            techStack: ["TensorFlow", "Python","AI"],
         },
         {
-            projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
+            projectName: "Object Recognition and Tracking using Optical flow",
+            image: "https://camo.githubusercontent.com/4361374fb20a0f604ae026b2c3b7f466716962b01409dd5bec84aec332921b87/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f62426d376b4e627750776b2f302e6a7067",
             summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-            preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
+                "Creating a algorithm to Detect and track Object in a video using optical flow technique",
+            preview: "https://github.com/UsamaHamayun1/object-tracking-using-optical-flow",
+            techStack: ["Object-Tracking", "Optical Flow", "Computer Vision"],
         },
         {
-            projectName: "Bill Generator",
-            image: "images/billgenerator.png",
+            projectName: "Identification of Various Shirts of Football Teams using Color-Histogram",
+            image: "https://github.com/UsamaHamayun1/Short-Identification-With-Color-Histogram/raw/main/cv_5.png",
             summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
-    ],
-    androidProjects: [
-        {
-            projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
-            summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-    ],
-    freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
+                "Identification of Various Shirts of Football Teams using Color-Histogram",
+            preview: "https://github.com/UsamaHamayun1/Short-Identification-With-Color-Histogram",
+            techStack: ["Object Identification", "Computer Vision",],
         },
     ],
 };
